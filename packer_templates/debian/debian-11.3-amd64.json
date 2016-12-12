@@ -13,6 +13,7 @@
         "netcfg/get_hostname={{ .Name }} <wait>",
         "netcfg/get_domain=vagrantup.com <wait>",
         "fb=false <wait>",
+        "net.ifnames=0 <wait>",
         "debconf/frontend=noninteractive <wait>",
         "console-setup/ask_detect=false <wait>",
         "console-keymaps-at/keymap=us <wait>",
